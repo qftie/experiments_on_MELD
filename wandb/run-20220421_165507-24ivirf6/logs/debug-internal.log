@@ -1,0 +1,67 @@
+2022-04-21 16:55:17,279 INFO    MainThread:3464 [internal.py:wandb_internal():92] W&B internal server running at pid: 3464, started at: 2022-04-21 16:55:17.279188
+2022-04-21 16:55:17,284 INFO    WriterThread:3464 [datastore.py:open_for_write():77] open: /home/phd-fan.weiquan2/works/MELD-Baseline/wandb/run-20220421_165507-24ivirf6/run-24ivirf6.wandb
+2022-04-21 16:55:17,287 DEBUG   SenderThread:3464 [sender.py:send():235] send: header
+2022-04-21 16:55:17,287 DEBUG   SenderThread:3464 [sender.py:send():235] send: run
+2022-04-21 16:55:17,787 INFO    SenderThread:3464 [dir_watcher.py:__init__():169] watching files in: /home/phd-fan.weiquan2/works/MELD-Baseline/wandb/run-20220421_165507-24ivirf6/files
+2022-04-21 16:55:17,787 INFO    SenderThread:3464 [sender.py:_start_run_threads():812] run started: 24ivirf6 with start time 1650531316
+2022-04-21 16:55:17,787 DEBUG   SenderThread:3464 [sender.py:send():235] send: summary
+2022-04-21 16:55:17,787 INFO    SenderThread:3464 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-21 16:55:17,790 DEBUG   HandlerThread:3464 [handler.py:handle_request():141] handle_request: check_version
+2022-04-21 16:55:17,791 DEBUG   SenderThread:3464 [sender.py:send_request():249] send_request: check_version
+2022-04-21 16:55:18,125 DEBUG   HandlerThread:3464 [handler.py:handle_request():141] handle_request: run_start
+2022-04-21 16:55:18,791 INFO    Thread-7  :3464 [dir_watcher.py:_on_file_created():217] file/dir created: /home/phd-fan.weiquan2/works/MELD-Baseline/wandb/run-20220421_165507-24ivirf6/files/wandb-summary.json
+2022-04-21 16:55:19,987 DEBUG   HandlerThread:3464 [meta.py:__init__():37] meta init
+2022-04-21 16:55:19,987 DEBUG   HandlerThread:3464 [meta.py:__init__():51] meta init done
+2022-04-21 16:55:19,987 DEBUG   HandlerThread:3464 [meta.py:probe():211] probe
+2022-04-21 16:55:19,994 DEBUG   HandlerThread:3464 [git.py:repo():33] git repository is invalid
+2022-04-21 16:55:19,994 DEBUG   HandlerThread:3464 [meta.py:_save_pip():55] save pip
+2022-04-21 16:55:19,995 DEBUG   HandlerThread:3464 [meta.py:_save_pip():69] save pip done
+2022-04-21 16:55:19,995 DEBUG   HandlerThread:3464 [meta.py:_save_conda():76] save conda
+2022-04-21 16:55:20,802 INFO    Thread-7  :3464 [dir_watcher.py:_on_file_created():217] file/dir created: /home/phd-fan.weiquan2/works/MELD-Baseline/wandb/run-20220421_165507-24ivirf6/files/conda-environment.yaml
+2022-04-21 16:55:20,803 INFO    Thread-7  :3464 [dir_watcher.py:_on_file_created():217] file/dir created: /home/phd-fan.weiquan2/works/MELD-Baseline/wandb/run-20220421_165507-24ivirf6/files/requirements.txt
+2022-04-21 16:55:23,803 INFO    Thread-7  :3464 [dir_watcher.py:_on_file_created():217] file/dir created: /home/phd-fan.weiquan2/works/MELD-Baseline/wandb/run-20220421_165507-24ivirf6/files/output.log
+2022-04-21 16:55:24,643 DEBUG   HandlerThread:3464 [meta.py:_save_conda():86] save conda done
+2022-04-21 16:55:24,643 DEBUG   HandlerThread:3464 [meta.py:probe():249] probe done
+2022-04-21 16:55:24,649 DEBUG   HandlerThread:3464 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-21 16:55:24,652 DEBUG   SenderThread:3464 [sender.py:send_request():249] send_request: stop_status
+2022-04-21 16:55:24,807 INFO    Thread-7  :3464 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/phd-fan.weiquan2/works/MELD-Baseline/wandb/run-20220421_165507-24ivirf6/files/conda-environment.yaml
+2022-04-21 16:55:24,808 INFO    Thread-7  :3464 [dir_watcher.py:_on_file_created():217] file/dir created: /home/phd-fan.weiquan2/works/MELD-Baseline/wandb/run-20220421_165507-24ivirf6/files/wandb-metadata.json
+2022-04-21 16:55:25,403 DEBUG   SenderThread:3464 [sender.py:send():235] send: telemetry
+2022-04-21 16:55:25,403 DEBUG   SenderThread:3464 [sender.py:send():235] send: telemetry
+2022-04-21 16:55:25,403 DEBUG   SenderThread:3464 [sender.py:send():235] send: config
+2022-04-21 16:55:25,404 DEBUG   SenderThread:3464 [sender.py:send():235] send: config
+2022-04-21 16:55:25,404 DEBUG   SenderThread:3464 [sender.py:send():235] send: config
+2022-04-21 16:55:25,404 DEBUG   SenderThread:3464 [sender.py:send():235] send: config
+2022-04-21 16:55:25,404 DEBUG   SenderThread:3464 [sender.py:send():235] send: config
+2022-04-21 16:55:25,405 DEBUG   SenderThread:3464 [sender.py:send():235] send: config
+2022-04-21 16:55:25,405 DEBUG   SenderThread:3464 [sender.py:send():235] send: config
+2022-04-21 16:55:25,405 DEBUG   SenderThread:3464 [sender.py:send():235] send: config
+2022-04-21 16:55:25,405 DEBUG   SenderThread:3464 [sender.py:send():235] send: config
+2022-04-21 16:55:25,405 DEBUG   SenderThread:3464 [sender.py:send():235] send: config
+2022-04-21 16:55:25,405 DEBUG   SenderThread:3464 [sender.py:send():235] send: files
+2022-04-21 16:55:25,405 INFO    SenderThread:3464 [sender.py:_save_file():947] saving file wandb-metadata.json with policy now
+2022-04-21 16:55:26,839 INFO    Thread-11 :3464 [upload_job.py:push():137] Uploaded file /tmp/tmpziljy3_owandb/2f1by0db-wandb-metadata.json
+2022-04-21 16:55:40,406 DEBUG   HandlerThread:3464 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-21 16:55:40,407 DEBUG   SenderThread:3464 [sender.py:send_request():249] send_request: stop_status
+2022-04-21 16:55:48,821 INFO    Thread-7  :3464 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/phd-fan.weiquan2/works/MELD-Baseline/wandb/run-20220421_165507-24ivirf6/files/config.yaml
+2022-04-21 16:55:50,476 WARNING MainThread:3464 [internal.py:is_dead():387] Internal process exiting, parent pid 29449 disappeared
+2022-04-21 16:55:50,477 ERROR   MainThread:3464 [internal.py:wandb_internal():151] Internal process shutdown.
+2022-04-21 16:55:50,665 INFO    WriterThread:3464 [datastore.py:close():281] close: /home/phd-fan.weiquan2/works/MELD-Baseline/wandb/run-20220421_165507-24ivirf6/run-24ivirf6.wandb
+2022-04-21 16:55:51,028 INFO    HandlerThread:3464 [handler.py:finish():778] shutting down handler
+2022-04-21 16:55:51,029 DEBUG   SenderThread:3464 [sender.py:send():235] send: stats
+2022-04-21 16:55:51,031 INFO    SenderThread:3464 [sender.py:finish():1078] shutting down sender
+2022-04-21 16:55:51,031 INFO    SenderThread:3464 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-04-21 16:55:51,824 INFO    SenderThread:3464 [dir_watcher.py:finish():313] scan: /home/phd-fan.weiquan2/works/MELD-Baseline/wandb/run-20220421_165507-24ivirf6/files
+2022-04-21 16:55:51,824 INFO    SenderThread:3464 [dir_watcher.py:finish():327] scan save: /home/phd-fan.weiquan2/works/MELD-Baseline/wandb/run-20220421_165507-24ivirf6/files/requirements.txt requirements.txt
+2022-04-21 16:55:51,824 INFO    SenderThread:3464 [dir_watcher.py:finish():327] scan save: /home/phd-fan.weiquan2/works/MELD-Baseline/wandb/run-20220421_165507-24ivirf6/files/wandb-metadata.json wandb-metadata.json
+2022-04-21 16:55:51,825 INFO    SenderThread:3464 [dir_watcher.py:finish():327] scan save: /home/phd-fan.weiquan2/works/MELD-Baseline/wandb/run-20220421_165507-24ivirf6/files/output.log output.log
+2022-04-21 16:55:51,825 INFO    SenderThread:3464 [dir_watcher.py:finish():327] scan save: /home/phd-fan.weiquan2/works/MELD-Baseline/wandb/run-20220421_165507-24ivirf6/files/wandb-summary.json wandb-summary.json
+2022-04-21 16:55:51,826 INFO    SenderThread:3464 [dir_watcher.py:finish():327] scan save: /home/phd-fan.weiquan2/works/MELD-Baseline/wandb/run-20220421_165507-24ivirf6/files/config.yaml config.yaml
+2022-04-21 16:55:51,835 INFO    SenderThread:3464 [dir_watcher.py:finish():327] scan save: /home/phd-fan.weiquan2/works/MELD-Baseline/wandb/run-20220421_165507-24ivirf6/files/conda-environment.yaml conda-environment.yaml
+2022-04-21 16:55:51,835 INFO    SenderThread:3464 [file_pusher.py:finish():145] shutting down file pusher
+2022-04-21 16:55:51,840 INFO    SenderThread:3464 [file_pusher.py:join():150] waiting for file pusher
+2022-04-21 16:55:52,931 INFO    Thread-12 :3464 [upload_job.py:push():137] Uploaded file /home/phd-fan.weiquan2/works/MELD-Baseline/wandb/run-20220421_165507-24ivirf6/files/requirements.txt
+2022-04-21 16:55:52,990 INFO    Thread-13 :3464 [upload_job.py:push():137] Uploaded file /home/phd-fan.weiquan2/works/MELD-Baseline/wandb/run-20220421_165507-24ivirf6/files/wandb-summary.json
+2022-04-21 16:55:53,043 INFO    Thread-15 :3464 [upload_job.py:push():137] Uploaded file /home/phd-fan.weiquan2/works/MELD-Baseline/wandb/run-20220421_165507-24ivirf6/files/conda-environment.yaml
+2022-04-21 16:55:53,227 INFO    Thread-14 :3464 [upload_job.py:push():137] Uploaded file /home/phd-fan.weiquan2/works/MELD-Baseline/wandb/run-20220421_165507-24ivirf6/files/config.yaml
+2022-04-21 16:55:54,127 INFO    MainThread:3464 [internal.py:handle_exit():82] Internal process exited

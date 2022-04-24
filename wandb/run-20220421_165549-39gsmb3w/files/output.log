@@ -1,0 +1,40 @@
+2022-04-21 16:55:58.630340: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2022-04-21 16:55:58.630373: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+Some weights of the model checkpoint at roberta-base were not used when initializing RobertaModel: ['lm_head.bias', 'lm_head.dense.weight', 'lm_head.decoder.weight', 'lm_head.dense.bias', 'lm_head.layer_norm.bias', 'lm_head.layer_norm.weight']
+- This IS expected if you are initializing RobertaModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Total parameters: 125291278, Trainable parameters: 125291278
+***** Running training epoch 1 *****
+Epoch 0001 | Step 0031/0625 | Loss 1.9805 | Time 12.4609
+Epoch 0001 | Step 0062/0625 | Loss 1.8644 | Time 20.1242
+Epoch 0001 | Step 0093/0625 | Loss 1.7716 | Time 27.7770
+Epoch 0001 | Step 0124/0625 | Loss 1.7121 | Time 35.7173
+Epoch 0001 | Step 0155/0625 | Loss 1.6545 | Time 43.3718
+Epoch 0001 | Step 0186/0625 | Loss 1.6172 | Time 51.0267
+Epoch 0001 | Step 0217/0625 | Loss 1.5695 | Time 58.6940
+Epoch 0001 | Step 0248/0625 | Loss 1.5324 | Time 66.3727
+Epoch 0001 | Step 0279/0625 | Loss 1.5135 | Time 74.3388
+Epoch 0001 | Step 0310/0625 | Loss 1.4918 | Time 82.0215
+Epoch 0001 | Step 0341/0625 | Loss 1.4620 | Time 89.7139
+Epoch 0001 | Step 0372/0625 | Loss 1.4407 | Time 97.4095
+Epoch 0001 | Step 0403/0625 | Loss 1.4233 | Time 105.0997
+Epoch 0001 | Step 0434/0625 | Loss 1.4080 | Time 112.7793
+Epoch 0001 | Step 0465/0625 | Loss 1.3865 | Time 120.4604
+Epoch 0001 | Step 0496/0625 | Loss 1.3765 | Time 128.1489
+Epoch 0001 | Step 0527/0625 | Loss 1.3612 | Time 136.1034
+Epoch 0001 | Step 0558/0625 | Loss 1.3501 | Time 143.7907
+Epoch 0001 | Step 0589/0625 | Loss 1.3420 | Time 151.4768
+Epoch 0001 | Step 0620/0625 | Loss 1.3293 | Time 159.1684
+              precision    recall  f1-score   support
+           0     0.7556    0.7830    0.7691       470
+           1     0.5894    0.5933    0.5914       150
+           2     0.0000    0.0000    0.0000        40
+           3     0.3917    0.4234    0.4069       111
+           4     0.4444    0.6871    0.5398       163
+           5     0.0000    0.0000    0.0000        22
+           6     0.4141    0.2680    0.3254       153
+    accuracy                         0.5924      1109
+   macro avg     0.3708    0.3935    0.3761      1109
+weighted avg     0.5616    0.5924    0.5709      1109
+wandb: Network error (ReadTimeout), entering retry loop.
+wandb: Network error (ReadTimeout), entering retry loop.

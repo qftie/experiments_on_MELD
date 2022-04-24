@@ -1,0 +1,187 @@
+2022-04-22 12:56:50.648767: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2022-04-22 12:56:50.648801: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+Some weights of the model checkpoint at roberta-base were not used when initializing RobertaModel: ['lm_head.dense.weight', 'lm_head.layer_norm.weight', 'lm_head.dense.bias', 'lm_head.decoder.weight', 'lm_head.bias', 'lm_head.layer_norm.bias']
+- This IS expected if you are initializing RobertaModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Total parameters: 125291278, Trainable parameters: 125291278
+***** Running training epoch 1 *****
+Epoch 0001 | Step 0031/0625 | Loss 1.9805 | Time 12.0685
+Epoch 0001 | Step 0062/0625 | Loss 1.8644 | Time 20.4359
+Epoch 0001 | Step 0093/0625 | Loss 1.7716 | Time 28.7695
+Epoch 0001 | Step 0124/0625 | Loss 1.7121 | Time 37.4148
+Epoch 0001 | Step 0155/0625 | Loss 1.6545 | Time 45.7316
+Epoch 0001 | Step 0186/0625 | Loss 1.6172 | Time 54.0875
+Epoch 0001 | Step 0217/0625 | Loss 1.5695 | Time 62.3917
+Epoch 0001 | Step 0248/0625 | Loss 1.5324 | Time 70.9801
+Epoch 0001 | Step 0279/0625 | Loss 1.5135 | Time 79.3262
+Epoch 0001 | Step 0310/0625 | Loss 1.4918 | Time 87.6807
+Epoch 0001 | Step 0341/0625 | Loss 1.4620 | Time 96.0459
+Epoch 0001 | Step 0372/0625 | Loss 1.4407 | Time 104.3664
+Epoch 0001 | Step 0403/0625 | Loss 1.4233 | Time 112.7082
+Epoch 0001 | Step 0434/0625 | Loss 1.4080 | Time 121.3167
+Epoch 0001 | Step 0465/0625 | Loss 1.3865 | Time 129.6762
+Epoch 0001 | Step 0496/0625 | Loss 1.3765 | Time 138.0398
+Epoch 0001 | Step 0527/0625 | Loss 1.3612 | Time 146.3960
+Epoch 0001 | Step 0558/0625 | Loss 1.3501 | Time 154.7177
+Epoch 0001 | Step 0589/0625 | Loss 1.3420 | Time 163.0647
+Epoch 0001 | Step 0620/0625 | Loss 1.3293 | Time 171.4156
+              precision    recall  f1-score   support
+           0     0.7556    0.7830    0.7691       470
+           1     0.5894    0.5933    0.5914       150
+           2     0.0000    0.0000    0.0000        40
+           3     0.3917    0.4234    0.4069       111
+           4     0.4444    0.6871    0.5398       163
+           5     0.0000    0.0000    0.0000        22
+           6     0.4141    0.2680    0.3254       153
+    accuracy                         0.5924      1109
+   macro avg     0.3708    0.3935    0.3761      1109
+weighted avg     0.5616    0.5924    0.5709      1109
+current macro_f1 is 0.3761, best macro_f1 is 0.3761
+time costed = 181.23609s
+***** Running training epoch 2 *****
+Epoch 0002 | Step 0031/0625 | Loss 1.0655 | Time 8.3490
+Epoch 0002 | Step 0062/0625 | Loss 1.0326 | Time 16.7168
+Epoch 0002 | Step 0093/0625 | Loss 1.0320 | Time 25.0558
+Epoch 0002 | Step 0124/0625 | Loss 1.0344 | Time 33.4184
+Epoch 0002 | Step 0155/0625 | Loss 1.0360 | Time 41.7951
+Epoch 0002 | Step 0186/0625 | Loss 1.0475 | Time 50.3837
+Epoch 0002 | Step 0217/0625 | Loss 1.0576 | Time 58.7404
+Epoch 0002 | Step 0248/0625 | Loss 1.0471 | Time 67.0904
+Epoch 0002 | Step 0279/0625 | Loss 1.0426 | Time 75.4322
+Epoch 0002 | Step 0310/0625 | Loss 1.0443 | Time 83.7964
+Epoch 0002 | Step 0341/0625 | Loss 1.0508 | Time 92.1750
+Epoch 0002 | Step 0372/0625 | Loss 1.0471 | Time 100.7403
+Epoch 0002 | Step 0403/0625 | Loss 1.0455 | Time 109.0973
+Epoch 0002 | Step 0434/0625 | Loss 1.0436 | Time 117.4292
+Epoch 0002 | Step 0465/0625 | Loss 1.0460 | Time 125.8065
+Epoch 0002 | Step 0496/0625 | Loss 1.0475 | Time 134.3922
+Epoch 0002 | Step 0527/0625 | Loss 1.0457 | Time 142.7424
+Epoch 0002 | Step 0558/0625 | Loss 1.0475 | Time 151.1081
+Epoch 0002 | Step 0589/0625 | Loss 1.0535 | Time 159.4884
+Epoch 0002 | Step 0620/0625 | Loss 1.0481 | Time 168.0574
+              precision    recall  f1-score   support
+           0     0.7059    0.8681    0.7786       470
+           1     0.5556    0.7000    0.6195       150
+           2     1.0000    0.0250    0.0488        40
+           3     0.5192    0.2432    0.3313       111
+           4     0.5574    0.6258    0.5896       163
+           5     0.4000    0.0909    0.1481        22
+           6     0.4752    0.3137    0.3780       153
+    accuracy                         0.6249      1109
+   macro avg     0.6019    0.4095    0.4134      1109
+weighted avg     0.6178    0.6249    0.5904      1109
+current macro_f1 is 0.4134, best macro_f1 is 0.4134
+time costed = 179.34131s
+***** Running training epoch 3 *****
+Epoch 0003 | Step 0031/0625 | Loss 0.9108 | Time 8.3385
+Epoch 0003 | Step 0062/0625 | Loss 0.9387 | Time 16.9082
+Epoch 0003 | Step 0093/0625 | Loss 0.9351 | Time 25.2507
+Epoch 0003 | Step 0124/0625 | Loss 0.9338 | Time 33.6105
+Epoch 0003 | Step 0155/0625 | Loss 0.9263 | Time 41.9754
+Epoch 0003 | Step 0186/0625 | Loss 0.9223 | Time 50.5525
+Epoch 0003 | Step 0217/0625 | Loss 0.9197 | Time 58.9057
+Epoch 0003 | Step 0248/0625 | Loss 0.9146 | Time 67.2449
+Epoch 0003 | Step 0279/0625 | Loss 0.9098 | Time 75.6067
+Epoch 0003 | Step 0310/0625 | Loss 0.9057 | Time 83.9400
+Epoch 0003 | Step 0341/0625 | Loss 0.9057 | Time 92.4709
+Epoch 0003 | Step 0372/0625 | Loss 0.9029 | Time 100.8575
+Epoch 0003 | Step 0403/0625 | Loss 0.9014 | Time 109.2504
+Epoch 0003 | Step 0434/0625 | Loss 0.8983 | Time 117.6256
+Epoch 0003 | Step 0465/0625 | Loss 0.9035 | Time 126.0040
+Epoch 0003 | Step 0496/0625 | Loss 0.9037 | Time 134.3782
+Epoch 0003 | Step 0527/0625 | Loss 0.9067 | Time 142.9907
+Epoch 0003 | Step 0558/0625 | Loss 0.9016 | Time 151.3481
+Epoch 0003 | Step 0589/0625 | Loss 0.9024 | Time 159.7138
+Epoch 0003 | Step 0620/0625 | Loss 0.9037 | Time 168.1062
+              precision    recall  f1-score   support
+           0     0.6988    0.8638    0.7726       470
+           1     0.6405    0.6533    0.6469       150
+           2     0.5333    0.2000    0.2909        40
+           3     0.4878    0.3604    0.4145       111
+           4     0.5587    0.6135    0.5848       163
+           5     0.3333    0.0455    0.0800        22
+           6     0.5208    0.3268    0.4016       153
+    accuracy                         0.6339      1109
+   macro avg     0.5390    0.4376    0.4559      1109
+weighted avg     0.6114    0.6339    0.6099      1109
+current macro_f1 is 0.4559, best macro_f1 is 0.4559
+time costed = 179.42701s
+***** Running training epoch 4 *****
+Epoch 0004 | Step 0031/0625 | Loss 0.7980 | Time 8.3838
+Epoch 0004 | Step 0062/0625 | Loss 0.7636 | Time 16.7400
+Epoch 0004 | Step 0093/0625 | Loss 0.7781 | Time 25.2837
+Epoch 0004 | Step 0124/0625 | Loss 0.7846 | Time 33.6338
+Epoch 0004 | Step 0155/0625 | Loss 0.8003 | Time 41.9680
+Epoch 0004 | Step 0186/0625 | Loss 0.7944 | Time 50.3158
+Epoch 0004 | Step 0217/0625 | Loss 0.7947 | Time 58.6836
+Epoch 0004 | Step 0248/0625 | Loss 0.8004 | Time 67.0314
+Epoch 0004 | Step 0279/0625 | Loss 0.8014 | Time 75.6429
+Epoch 0004 | Step 0310/0625 | Loss 0.8012 | Time 84.0065
+Epoch 0004 | Step 0341/0625 | Loss 0.7995 | Time 92.3743
+Epoch 0004 | Step 0372/0625 | Loss 0.7992 | Time 100.7452
+Epoch 0004 | Step 0403/0625 | Loss 0.7975 | Time 109.1030
+Epoch 0004 | Step 0434/0625 | Loss 0.7976 | Time 117.4696
+Epoch 0004 | Step 0465/0625 | Loss 0.7980 | Time 126.0681
+Epoch 0004 | Step 0496/0625 | Loss 0.8002 | Time 134.4429
+Epoch 0004 | Step 0527/0625 | Loss 0.8025 | Time 142.7773
+Epoch 0004 | Step 0558/0625 | Loss 0.8018 | Time 151.1288
+Epoch 0004 | Step 0589/0625 | Loss 0.8008 | Time 159.6725
+Epoch 0004 | Step 0620/0625 | Loss 0.8013 | Time 168.0171
+              precision    recall  f1-score   support
+           0     0.7435    0.7957    0.7688       470
+           1     0.6000    0.7200    0.6545       150
+           2     0.6923    0.2250    0.3396        40
+           3     0.4945    0.4054    0.4455       111
+           4     0.5698    0.6012    0.5851       163
+           5     0.3000    0.1364    0.1875        22
+           6     0.4929    0.4510    0.4710       153
+    accuracy                         0.6366      1109
+   macro avg     0.5561    0.4764    0.4931      1109
+weighted avg     0.6284    0.6366    0.6259      1109
+current macro_f1 is 0.4931, best macro_f1 is 0.4931
+time costed = 179.10274s
+***** Running training epoch 5 *****
+Epoch 0005 | Step 0031/0625 | Loss 0.7590 | Time 8.3789
+Epoch 0005 | Step 0062/0625 | Loss 0.7601 | Time 16.7397
+Epoch 0005 | Step 0093/0625 | Loss 0.7708 | Time 25.3303
+Epoch 0005 | Step 0124/0625 | Loss 0.7820 | Time 33.6987
+Epoch 0005 | Step 0155/0625 | Loss 0.7779 | Time 42.0501
+Epoch 0005 | Step 0186/0625 | Loss 0.7770 | Time 50.3907
+Epoch 0005 | Step 0217/0625 | Loss 0.7773 | Time 58.7389
+Epoch 0005 | Step 0248/0625 | Loss 0.7791 | Time 67.0951
+Epoch 0005 | Step 0279/0625 | Loss 0.7810 | Time 75.4585
+Epoch 0005 | Step 0310/0625 | Loss 0.7798 | Time 83.7943
+Epoch 0005 | Step 0341/0625 | Loss 0.7739 | Time 92.3415
+Epoch 0005 | Step 0372/0625 | Loss 0.7750 | Time 100.6864
+Epoch 0005 | Step 0403/0625 | Loss 0.7744 | Time 109.0258
+Epoch 0005 | Step 0434/0625 | Loss 0.7745 | Time 117.3717
+Epoch 0005 | Step 0465/0625 | Loss 0.7730 | Time 125.7107
+Epoch 0005 | Step 0496/0625 | Loss 0.7726 | Time 134.2843
+Epoch 0005 | Step 0527/0625 | Loss 0.7722 | Time 142.5997
+Epoch 0005 | Step 0558/0625 | Loss 0.7720 | Time 150.9409
+Epoch 0005 | Step 0589/0625 | Loss 0.7684 | Time 159.3026
+Epoch 0005 | Step 0620/0625 | Loss 0.7676 | Time 167.6784
+              precision    recall  f1-score   support
+           0     0.7256    0.8383    0.7779       470
+           1     0.6045    0.7133    0.6544       150
+           2     0.6250    0.2500    0.3571        40
+           3     0.5181    0.3874    0.4433       111
+           4     0.6062    0.5951    0.6006       163
+           5     0.2500    0.0909    0.1333        22
+           6     0.5246    0.4183    0.4655       153
+    accuracy                         0.6465      1109
+   macro avg     0.5506    0.4705    0.4903      1109
+weighted avg     0.6301    0.6465    0.6306      1109
+current macro_f1 is 0.4903, best macro_f1 is 0.4931
+time costed = 175.97722s
+              precision    recall  f1-score   support
+           0     0.7864    0.7826    0.7845      1256
+           1     0.5163    0.6192    0.5631       281
+           2     0.2727    0.1800    0.2169        50
+           3     0.4431    0.3558    0.3947       208
+           4     0.5911    0.6617    0.6244       402
+           5     0.2812    0.1324    0.1800        68
+           6     0.5073    0.5014    0.5044       345
+    accuracy                         0.6467      2610
+   macro avg     0.4855    0.4619    0.4668      2610
+weighted avg     0.6400    0.6467    0.6413      2610

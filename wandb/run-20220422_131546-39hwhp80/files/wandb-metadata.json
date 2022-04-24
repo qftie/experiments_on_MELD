@@ -1,0 +1,28 @@
+{
+    "os": "Linux-4.15.0-161-generic-x86_64-with-glibc2.10",
+    "python": "3.8.0",
+    "heartbeatAt": "2022-04-22T05:15:50.840003",
+    "startedAt": "2022-04-22T05:15:46.832610",
+    "docker": null,
+    "gpu": "GeForce RTX 2080 Ti",
+    "gpu_count": 8,
+    "cpu_count": 40,
+    "cuda": "10.2.89",
+    "args": [
+        "--ip=127.0.0.1",
+        "--stdin=9042",
+        "--control=9040",
+        "--hb=9039",
+        "--Session.signature_scheme=\"hmac-sha256\"",
+        "--Session.key=b\"af7039d6-472e-4015-ab37-c9890954b58a\"",
+        "--shell=9041",
+        "--transport=\"tcp\"",
+        "--iopub=9043",
+        "--f=/tmp/tmp-12333X0mjAk3ikOH8.json"
+    ],
+    "state": "running",
+    "program": "<python with no main file>",
+    "host": "s1",
+    "username": "phd-fan.weiquan2",
+    "executable": "/home/phd-fan.weiquan2/anaconda3/envs/torch17py38/bin/python"
+}
